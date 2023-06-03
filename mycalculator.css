@@ -1,0 +1,70 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    height: 80vh;
+    width: 20vw;
+    background-color: black;
+    border: 1px solid black;
+    box-shadow: 4px 4px 4px rgba(0,0,0,0.3);
+    border-radius:12px;
+    overflow: hidden;
+    
+}
+
+
+
+form input{
+    width: 90%;
+    height: 130px;
+    background-color:black;
+    border: none;
+    border-radius: 12px;
+    text-align: right;
+    font-size: 2rem;
+    padding: 1rem;
+    color: white;
+}
+
+.buttons
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+   
+    padding: 20px;
+
+}
+
+
+button{
+    width: 100px;
+    height: 50px;
+    font-size: 22px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+    flex: 0 0 22%;
+    margin: 5px 0;
+    border: 1px solid black;
+    
+    
+}
+
+.btn-yellow{
+    background-color: rgb(222, 154, 28);
+    color: white;
+
+}
+.btn-grey{
+ 
+    background-color: rgb(137, 128, 128);
+}
+.btn-equal{
+    background-color: green;
+}
+.btn-clear{
+    background-color: red;
+}
